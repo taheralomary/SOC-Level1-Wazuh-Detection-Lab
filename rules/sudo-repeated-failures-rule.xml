@@ -1,1 +1,9 @@
-
+<group name="sudo,authentication,">
+  <rule id="100020" level="12" frequency="2" timeframe="120">
+    <if_matched_sid>5404</if_matched_sid>
+    <description>Repeated sudo authentication failures detected</description>
+    <mitre>
+      <id>T1548.003</id>
+    </mitre>
+  </rule>
+</group>
