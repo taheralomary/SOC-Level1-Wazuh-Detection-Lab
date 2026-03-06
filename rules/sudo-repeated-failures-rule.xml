@@ -1,7 +1,8 @@
-<group name="sudo,authentication,">
+<group name="custome_sudo_monitoring">
   <rule id="100020" level="12" frequency="3" timeframe="120">
     <if_matched_sid>5404</if_matched_sid>
-    <description>Repeated sudo authentication failures detected</description>
+    <description>Custome High Severity Alert : Repeated occurrences of 3 faild sudo attempts within 120 seconds</description>
+    <group>authentication_failures,privilege_escalation,custom_rule,</group>
     <mitre>
       <id>T1548.003</id>
     </mitre>
