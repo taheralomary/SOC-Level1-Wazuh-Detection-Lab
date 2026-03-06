@@ -118,3 +118,19 @@ This project demonstrates practical SOC Level 1 skills including:
 ---
 
 ## Repository Structure
+SOC-Level1-Wazuh-Detection-Lab
+│
+├── report/
+│   └── README.md
+│   └── SOC-Level1-Wazuh-SIEM-Lab.pdf
+├── rules/
+│   └── sudo-repeated-failures-rule.xml
+│
+├── screenshots/
+│   ├── dashboard.png
+│   ├── active-agents.png
+│   ├── event-analysis.png
+│   └── xml-rule.png
+│
+├── LICENSE
+└── README.md
