@@ -74,6 +74,21 @@ The investigation included:
 
 ---
 
+## Screenshots
+
+### Wazuh Dashboard
+![Wazuh Dashboard](screenshots/Dashboard.png)
+
+### Active Agents
+![Active Agents](screenshots/Activeagents.png)
+
+### Event Analysis
+![Event Analysis](screenshots/RawDetails.png)
+
+### XML Rule File
+![XML Rule](screenshots/xml.png)
+ 
+ ---
 
 ## Incident Escalation
 
